@@ -1,12 +1,12 @@
-#Skillbit-Technology
+Skillbit-Technology
 
 Internship for Front End Development
 
-#🚗 Slideify
+🚗 Slideify
 
 Slideify is an elegant and fully responsive Image Slider project that automatically transitions through a collection of stunning car images every 7 seconds. It’s designed to highlight smooth animations, clean design, and modern frontend development techniques.
 
-#📌 Table of Contents
+📌 Table of Contents
 
 About
 
@@ -20,11 +20,11 @@ Auto-Slide Functionality
 
 Conclusion
 
-#📖 About
+📖 About
 
 Slideify is a responsive image slider built to display a collection of car images in a smooth, looping sequence. The project automatically transitions between images every 7 seconds, offering an engaging and visually appealing experience without requiring user input.
 
-#✨ Features
+✨ Features
 
 Automatic image transition every 7 seconds
 
@@ -38,13 +38,13 @@ Lightweight and optimized for performance
 
 Simple and clean UI layout
 
-#🛠 Tech Stack
+🛠 Tech Stack
 
 Frontend: HTML, CSS, JavaScript
 
 Styling: CSS3 / Tailwind CSS
 
-#🎞 Slider Section
+🎞 Slider Section
 
 Displays a collection of car images in a continuous, automatic slider.
 
@@ -52,7 +52,7 @@ Each image adjusts seamlessly to various screen resolutions.
 
 The slider maintains fluid transitions and balanced image scaling.
 
-#⏱ Auto-Slide Functionality
+⏱ Auto-Slide Functionality
 
 The slider automatically changes images every 7 seconds using JavaScript timing functions (like setInterval).
 
@@ -60,7 +60,7 @@ The transitions are handled smoothly to create a visually pleasing slideshow eff
 
 Users can optionally pause, navigate, or resume the slider (depending on implementation).
 
-#🏁 Conclusion
+🏁 Conclusion
 
 Slideify demonstrates my ability to create dynamic, responsive, and interactive frontend components using core web technologies.
 
