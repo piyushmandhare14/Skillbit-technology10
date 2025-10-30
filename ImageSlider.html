@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageSlider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Imageslider.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-images"></i>Slideify</h1>
+        </header>
+        
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="https://i.pinimg.com/736x/9b/ac/a6/9baca6df7711d438baf1e1104ed5b834.jpg" alt="Mountain Landscape">
+                    <div class="slide-content">
+                        <h2>Bugatti</h2>
+                        <p>Bugatti is a French luxury automaker renowned for producing some of the fastest and most exclusive hypercars in the world.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://i.pinimg.com/1200x/c6/72/37/c67237af34b4e4e06f55050be1485c92.jpg" alt="Forest Pathway">
+                    <div class="slide-content">
+                        <h2>Lamborghini Huracán</h2>
+                        <p>The Lamborghini Huracán is a sleek, high-performance supercar known for its striking design and roaring V10 engine.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://i.pinimg.com/1200x/91/0b/6c/910b6cbd9ca0b56124b202a99374b64b.jpg" alt="Ocean Sunset">
+                    <div class="slide-content">
+                        <h2>LaFerrari</h2>
+                        <p>LaFerrari is Ferrari’s flagship hybrid hypercar, blending cutting-edge technology with breathtaking speed and design.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://i.pinimg.com/736x/55/22/d3/5522d3a90f774858e1331b1a73723981.jpg" alt="Desert Dunes">
+                    <div class="slide-content">
+                        <h2>Porsche 911</h2>
+                        <p>The Porsche 911 is an iconic sports car celebrated for its timeless design, rear-engine layout, and exceptional driving performance..</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://i.pinimg.com/736x/fe/8c/e5/fe8ce58b20828e7437eb71cdb5c877e6.jpg" alt="Waterfall">
+                    <div class="slide-content">
+                        <h2>BMW M5</h2>
+                        <p>The BMW M5 is a high-performance luxury sedan combining powerful engines with precise handling and refined comfort.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://i.pinimg.com/736x/06/4a/49/064a491c2db62cd329aaf227157ff735.jpg" alt="Waterfall">
+                    <div class="slide-content">
+                        <h2>Pagani Huayra</h2>
+                        <p>The Pagani Huayra is an ultra-exclusive Italian hypercar known for its striking design, advanced aerodynamics, and V12 twin-turbo engine.</p>
+                    </div>
+                </div>
+                                <div class="slide">
+                    <img src="https://i.pinimg.com/1200x/4e/d4/0c/4ed40cdc2cdbda8893d22fba3e0d9b06.jpg" alt="Waterfall">
+                    <div class="slide-content">
+                        <h2>Lamborghini Revuelto</h2>
+                        <p>The Lamborghini Revuelto is a plug-in hybrid supercar combining a V12 engine with electric motors for over 1,000 horsepower.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="slider-btn prev-btn" aria-label="Previous slide">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="slider-btn next-btn" aria-label="Next slide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <button class="play-pause-btn" aria-label="Pause auto rotation">
+                <i class="fas fa-pause"></i>
+            </button>
+        </div>
+        
+        <div class="indicators">
+            <button class="indicator active" aria-label="Go to slide 1"></button>
+            <button class="indicator" aria-label="Go to slide 2"></button>
+            <button class="indicator" aria-label="Go to slide 3"></button>
+            <button class="indicator" aria-label="Go to slide 4"></button>
+            <button class="indicator" aria-label="Go to slide 5"></button>
+        </div>
+    </div>
+
+    <script src="Imageslider.js"></script>
+</body>
+</html>
